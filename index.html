@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="Pages d'accueil du site  CV" />
+    <meta name="keywords" content="CV, informatique, PPP, entreprise, stage, web, logiciel, développement" />
+    <meta name="author" content="Glory-Sara Tairi" />
+    <title>Glory-Sara Tairi</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap4.masonry.min.js"></script>
+    <!--Script pour la navbar-->
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
+        });
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector('.cont_modal').className = "cont_modal";
+        }
+        var c = 0;
+
+        function open_close() {
+            if (c % 2 == 0) {
+                document.querySelector('.cont_modal').className = "cont_modal cont_modal_active";
+                c++;
+            } else {
+                document.querySelector('.cont_modal').className = "cont_modal";
+                c++;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!--Début header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <!--Menu burger-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="#apropos">A propos</a>
+                    <a class="nav-item nav-link" href="#formations">Formations</a>
+                    <a class="nav-item nav-link" href="#competences">Compétences</a>
+                    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                    <a class="nav-item nav-link" href="images/Glory-Sara%20TAIRI.pdf">Télécharger mon CV</a>
+                </div>
+            </div>
+        </nav>
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-caption">
+                            <div class="typewriter">
+                                <h1 class="page-title">Glory-Sara Tairi</h1>
+                                <div id="apropos"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Fin header-->
+
+    <!--Début main-->
+    <div class="container">
+        <main>
+            <!--Présentation-->
+            <div class="card-section">
+                <div class="container text-center">
+                    <div class="card-block bg-white mb30">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <figure>
+                                    <img src="images/Glory.png" alt="Glory-Sara Tairi" title="Glory-Sara Tairi"
+                                        width="210" height="220">
+                                </figure>
+                            </div>
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+                                <div class="section-title mb-0">
+                                    <h2 id="header"><q>Le principe de l'évolution est beaucoup plus rapide en
+                                            informatique
+                                            que chez le bipède.</q></h2>
+                                    <p>L’informatique est un domaine en plein essor et qui occupe une place importante
+                                        dans
+                                        nos sociétés. Mon autonomie, ma réflexion et mon ouverture d’esprit m’ont amené
+                                        à
+                                        être curieuse dans ce secteur. Mes passions pour l'art m'aident d’être créative
+                                        et
+                                        d'être bien organisée.
+                                        <br>
+                                        Etudiante en première année de <a
+                                            href="http://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/DUT-Informatique">DUT
+                                            Informatique</a>, ma formation m’a permis de développer l'esprit d'équipe et
+                                        de
+                                        découvrir un goût pour la création de sites et pour la programmation orientée
+                                        objet.
+                                        Par conséquent, je suis à la recherche d’un stage pour approfondir mon
+                                        expérience
+                                        dans le domaine du développement web et logiciel, mais aussi dans le monde
+                                        professionnel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Centres d'intérêts-->
+            <div class="text-center">
+                <h1>Centres d'intérêts</h1>
+                <hr>
+                <div class="row mx-auto">
+                    <div class="col-md-4 col-sm-4 col-6">
+                        <img src="images/camera.png" alt="Appareil photo" title="Appareil photo">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-6">
+                        <img src="images/peinture.png" alt="Palette de peinture" title="Peinture">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-12">
+                        <img src="images/piano.png" alt="Piano" title="Piano">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <p>Depuis mon plus jeune âge, j'ai toujours été passionnée par l'art. Que cela soit la peinture,
+                            la
+                            photographie ou la musique. Ma créativité est sans cesse en action. Ces activités me
+                            permettent
+                            de m'exprimer, de voir le monde sous un autre angle. Elles me donnent la possibilité de
+                            créer un
+                            souvenir, même si dans le futur, il me paraîtra lointain.
+                            <br>
+                            En ce qui concerne la musique, j'ai été bercée par une famille de musiciens. Du ukulele à
+                            l'accordéon, de la guitare à la batterie, mon affection pour le piano est née.
+                            Voici quelques clichés que j'ai capturé. Un simple clic pour qu'un moment dure plus
+                            longtemps.
+                        </p>
+                    </div>
+                </div>
+                <div class="row masonry mt-5" data-target=".item" data-col-xs="12" data-col-sm="6" data-col-md="3"
+                    data-col-lg="4">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                        <div class="item mb-4">
+                            <img src="images/nina.jpg" class="border__radius--8" alt="Photographie d'une amie"
+                                title="Chute d'eau">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                        <div class="item mb-4">
+                            <img src="images/Aber.jpg" class="border__radius--8"
+                                alt="Photographie de la plage de l'Aber" title="Aber">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                        <div class="item mb-4">
+                            <img src="images/Parc.jpg" class="border__radius--8" alt="Photographie du parc de Bagatelle"
+                                title="Parc de Bagatelle, Paris">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                        <div class="item mb-4">
+                            <img src="images/Morgat.jpg" class="border__radius--8" alt="Banc à Morgat" title="Morgat">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                        <div class="item mb-4">
+                            <img src="images/odile.jpg" class="border__radius--8" alt="Photographie d'une amie"
+                                title="Golden hour">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                        <div class="item mb-4">
+                            <img src="images/lannion.jpg" class="border__radius--8"
+                                alt="Photographie sur le pont de Lannion" title="Pont de Lannion">
+                        </div>
+                    </div>
+                </div>
+                <div id="formations"></div>
+            </div>
+            <br>
+            <!--Formations-->
+            <div class="formations">
+                <h1 class="text-center">Mes formations</h1>
+                <br>
+                <section class="timeline">
+                    <div class="container">
+                        <div class="timeline-item">
+                            <div class="timeline-img"></div>
+                            <div class="timeline-content js--fadeInLeft">
+                                <h2>Diplôme Universitaire<br> Technologique</h2>
+                                <div class="date">2019 - 2021</div>
+                                <p>Formation en informatique sur deux années.</p>
+                                <a href="http://www.iut-lannion.fr/"><em>IUT de Lannion, 22300</em></a>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-img"></div>
+                            <div class="timeline-content js--fadeInLeft">
+                                <h2>Baccalauréat Scientifique</h2>
+                                <div class="date">2019</div>
+                                <p><a
+                                        href="http://www.onisep.fr/Choisir-mes-etudes/Au-lycee-au-CFA/Au-lycee-general-et-technologique/Les-bacs-generaux-terminales-2019-2020/Le-bac-S-scientifique">Terminale
+                                        S-SVT spécialité physique-chimie.</a> Mention Bien.</p>
+                                <p><em>Lycée Alfred Nobel Clichy-sous-Bois, 93390</em></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-img"></div>
+                            <div class="timeline-content js--fadeInLeft">
+                                <div class="date">2017</div>
+                                <a
+                                    href="https://www.cambridgeenglish.org/fr/exams-and-tests/cambridge-english-certificate-cec/">
+                                    <h2>Cambridge Certificate</h2>
+                                </a>
+                                <p>Valider le niveau C1.</p>
+                                <p><em>Lycée Alfred Nobel Clichy-sous-Bois, 93390</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <br>
+            <!--Compétences-->
+            <div class="text-center" id="competences">
+                <h1>Mes compétences</h1>
+                <hr>
+                <!--Langages web-->
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <p>Ma formation me permet de connaître de nouveaux langages. Qu'ils soient dans le domaine du
+                            web ou
+                            bien de la programmation, ils m'aident pour développer un esprit de réflexion et critique.
+                            Le
+                            souci du détail me paraît important, chaque erreur peut être fatale. Découvrir de nouveaux
+                            langages donne la possibilité à l'humain de dévoiler une nouvelle facette de lui-même.</p>
+                        <h2>Langages web</h2>
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-md-3 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/html.png" alt="Logo HTML5" title="HTML5" width="130" height="130" />
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/css.jpg" alt="Logo CSS3" title="CSS3" width="130" height="130" />
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-12 mx-auto image-box">
+                        <img src="images/logos/js.png" alt="Logo Javascript" title="Javascript" width="130"
+                            height="130" />
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-12 mx-auto image-box">
+                        <img src="images/logos/php.png" alt="Logo PHP" title="PHP" width="130"
+                            height="80" />
+                    </div>
+                </div>
+                <br>
+                <!--Langages prog-->
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <h2>Langages de programmation</h2>
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-md-3 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/c.jpg" alt="Logo C" title="C" width="130" height="130" />
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/java.png" alt="Logo Java" title="Java" width="130" height="130" />
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-12 mx-auto image-box">
+                        <img src="images/logos/python.png" alt="Logo Python" title="Python" width="130" height="130" />
+                    </div>
+                </div>
+                <br>
+                <!--BDD-->
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <h2>Bases de données</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/sql.jpg" alt="Logo Postgre SQL" title="SQL" width="130" height="130" />
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/jdbc.png" alt="Logo JDBC" title="JDBC" width="100" height="100" />
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/rel.PNG" alt="Logo Rel" title="Tutorial D" width="130" height="130" />
+                    </div>
+                </div>
+                <br>
+                <!--Logiciels & applications-->
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <p>L'utilisation de logiciels est primordiale dans le domaine de l'informatique, même dans la
+                            vie
+                            quotidienne. Pour les cours, les rendus de projets ou encore par divertissement, les
+                            logiciels
+                            occupent une place importante. Je les découvre par moi-même ou bien mes études élargisse mon
+                            répertoire.</p>
+                        <h2>Logiciels et applications</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/photoshop.png" alt="Logo Photoshop" title="Photoshop" width="130"
+                            height="130" />
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/adobexd.jpg" alt="Logo Adobe XD" title="Adobe XD" width="130"
+                            height="130" />
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/trello.png" alt="Logo Trello" title="Trello" width="130" height="130" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/gantt.jpg" alt="Logo Gantt" title="Gantt" width="130" height="130" />
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/git.jpg" alt="Logo Gitlab" title="Gitlab" width="130" height="130" />
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-6 mx-auto image-box">
+                        <img src="images/logos/canva.png" alt="Logo Canva" title="Canva" width="120" height="120" />
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--Portfolio-->
+            <div class="text-center" id="portfolio">
+                <h1>Portfolio</h1>
+                <hr>
+                <br>
+                <div class="row">
+                    <!--Machin Paysagiste-->
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="card mp">
+                            <div class="info">
+                                <h1 class="title">Machin Paysagiste</h1>
+                                <h5>Décembre 2019</h5>
+                                <p class="description">Création d'un site web pour une entreprise passionnée par le
+                                    jardinage en groupe avec
+                                    une deadline d'un mois.<br>
+                                    Ce projet m'a permis de développer mon <strong>esprit d'équipe</strong> et ma
+                                    <strong>communication avec autrui</strong>.
+                                    Ce site web responsive a été présenté devant un professeur et une classe.</p>
+                                <div class="col text-center">
+                                    <a href="#" class="btn" data-toggle="modal"
+                                        data-target="#technoMP">Technologies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!--Transhumanisme-->
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="card am">
+                            <div class="info">
+                                <h1 class="title">Amélio</h1>
+                                <h5>Janvier 2020</h5>
+                                <p class="description">Le projet du premier semestre consistait à réaliser
+                                    un site web responsive en groupe sur un thème imposé : <strong>l'informatique et la
+                                        santé</strong>. Nous avions donc opté pour le transhumanisme et ce projet a été
+                                    choisi pour être <strong>présenté à
+                                        des professionnels.</strong>
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <a href="#" class="btn" data-toggle="modal"
+                                            data-target="#technoMP">Technologies</a>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <a href="http://baptistealix.me/Amelioo/index.html" class="btn"
+                                            target="_blank">Voir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="row">
+                    <!--ODSE-->
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="card odse">
+                            <div class="info">
+                                <h1 class="title">ODSE</h1>
+                                <h5>Avril 2020</h5>
+                                <p class="description">ODSE est un site web responsive développé de A à Z en binôme afin
+                                    d'évaluer nos capacités en anglais et en
+                                    développement web.
+                                    Cette entreprise fictive est spécialisée dans l'exploration, dans la recherche des
+                                    fonds marins et dans l'étude de la qualité d'eau.
+                                    ODSE a été présenté par <strong>visioconférence</strong> devant la classe et le
+                                    professeur d'anglais.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <a href="#" class="btn" data-toggle="modal"
+                                            data-target="#technoODSE">Technologies</a>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <a href="http://justinefouille.me/ODSE/index.html" class="btn"
+                                            target="_blank">Voir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <!--FestiGO-->
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="card fg">
+                            <div class="info">
+                                <h1 class="title">Festi'Go</h1>
+                                <h5>Juin 2020</h5>
+                                <p class="description">Pour le projet du deuxième semestre, nous avions créé une
+                                    application de gestion de festival réalisée en groupe.
+                                    Le travail en groupe nous a permis <strong>d'avoir une cohésion d'équipe</strong> et
+                                    de se rendre compte que la création d'application n'est pas une tâche aussi facile.
+                                    Ce projet a été présenté pendant la soutenance de fin d'année devant un jury et une
+                                    classe.
+                                </p>
+                                <div class="col text-center">
+                                    <a href="#" class="btn" data-toggle="modal"
+                                        data-target="#technoFG">Technologies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Loop-->
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="card loop">
+                            <div class="info">
+                                <h1 class="title">Loop</h1>
+                                <h5>Décembre 2020</h5>
+                                <p class="description">Loop est une application web développée en binôme pour mettre en
+                                    avant nos compétences en PHP.
+                                    Celle-ci permet à un utilisateur de se créer un compte afin de gérer sa collection
+                                    de jeux vidéos. Nous avions un total de dix heures de développement pour rendre une
+                                    application fonctionnelle et esthétique.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <a href="#" class="btn" data-toggle="modal"
+                                            data-target="#technoLoop">Technologies</a>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <a href="https://infolannion.com/b23" class="btn btn-primary"
+                                            target="_blank">Voir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal MP et AMELIO-->
+                <div class="modal fade" id="technoMP" tabindex="-1" role="dialog" aria-labelledby="technoMPCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="technoMPLongTitle">Technologies utilisées</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/logos/html.png" alt="Logo HTML5" title="HTML5" width="80" height="80">
+                                <img src="images/logos/css3.png" alt="Logo CSS3" title="CSS3" width="80" height="80">
+                                <img src="images/logos/bootstrap.png" alt="Logo Bootstrap" title="Bootstrap" width="80"
+                                    height="80">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal ODSE-->
+                <div class="modal fade" id="technoODSE" tabindex="-1" role="dialog"
+                    aria-labelledby="technoODSECenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="technoODSELongTitle">Technologies utilisées</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/logos/html.png" alt="Logo HTML5" title="HTML5" width="80" height="80">
+                                <img src="images/logos/css3.png" alt="Logo CSS3" title="CSS3" width="80" height="80">
+                                <img src="images/logos/js.png" alt="Logo Javascript" title="Javascript" width="80"
+                                    height="80">
+                                <img src="images/logos/bootstrap.png" alt="Logo Bootstrap" title="Bootstrap" width="80"
+                                    height="80">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Festi'Go-->
+                <div class="modal fade" id="technoFG" tabindex="-1" role="dialog" aria-labelledby="technoFGCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="technoFGLongTitle">Technologies utilisées</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/logos/java.png" alt="Logo Java" title="Java" width="100" height="100">
+                                <img src="images/logos/javafx.png" alt="Logo JavaFX" title="JavaFX" width="200"
+                                    height="80">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Loop-->
+                <div class="modal fade" id="technoLoop" tabindex="-1" role="dialog"
+                    aria-labelledby="technoLoopCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="technoLoopLongTitle">Technologies utilisées</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/logos/html.png" alt="Logo HTML5" title="HTML5" width="80" height="80">
+                                <img src="images/logos/css3.png" alt="Logo CSS3" title="CSS3" width="80" height="80">
+                                <img src="images/logos/js.png" alt="Logo Javascript" title="Javascript" width="80"
+                                    height="80">
+                                <br>
+                                <img src="images/logos/bootstrap.png" alt="Logo Bootstrap" title="Bootstrap" width="80"
+                                    height="80">
+                                <img src="images/logos/php.png" alt="Logo PHP" title="PHP" width="80" height="60">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </main>
+    </div>
+    <!--Fin main-->
+
+    <!--Début footer-->
+    <footer class="contacter" id="contact">
+        <div class="container text-center">
+            <h1>Contactez-moi</h1>
+            <hr>
+            <div class="row mx-auto">
+                <div class="col-md-6 col-sm-6 col-6 mx-auto">
+                    <p>Vous pouvez me contacter grâce à mes coordonnées ci-dessous :</p>
+
+                    <figure>
+                        <img src="images/mail.png" alt="Mail" title="Mail" width="25" height="25">
+                        <figcaption>gtairi.pro@gmail.com</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/tel.png" alt="Téléphone" title="Téléphone" width="30" height="30">
+                        <figcaption>+33 6 41 91 67 33</figcaption>
+                    </figure>
+
+                    <figure>
+                        <a href="https://www.linkedin.com/in/glory-sara-tairi-601772194/"><img src="images/linkedin.png"
+                                alt="Linkedin" title="Linked In" width="35" height="35"></a>
+                        <figcaption>Glory-Sara Tairi</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin footer-->
+
+</body>
+
+</html>
