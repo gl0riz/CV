@@ -75,6 +75,9 @@ a:hover {
     color: #5D733C;
 }
 
+.pfp{
+    border-radius: 50%;
+}
 /*Navbar*/
 .navbar-nav {
     list-style: none;
