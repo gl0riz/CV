@@ -78,6 +78,10 @@ a:hover {
 .pfp{
     border-radius: 50%;
 }
+
+.dut{
+    color:  #BF8173;
+}
 /*Navbar*/
 .navbar-nav {
     list-style: none;
